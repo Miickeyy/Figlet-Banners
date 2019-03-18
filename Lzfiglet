@@ -1,0 +1,948 @@
+#!bin/sh
+
+clear
+echo "\033[1;91m---------------------------------------------------------"
+figlet -f Puffy "LazyFiglet"  
+echo " Genere fuents de figlet de manera fácil con LazyFiglet Por Mickey && Cesar"
+echo " "
+echo "        Información del autor"
+echo " => Nombre    : Mickey && Cesar"
+echo " => Github  : https://github.com/Miickeyy/Lzyfigt.git"
+echo " => YouTube : https://www.youtube.com/channel/UCjs0N8PbEo-se0r_4O_svNQ"
+echo " => WhatsApp: Como ser un Hacker"
+echo "-------------------------------------------------------------- "
+echo " "
+
+echo -n "\033[1;93m[*] Introduzca su nombre : "
+read a
+if [ ! -z $a ]
+then
+
+echo " "
+echo -n "\033[1;96m[*] Este script de LazyFiglet por < Mickey & Cesar "
+echo " "
+echo -n "\033[1;92m Generando fuentes ........ "
+
+echo ""
+echo ""
+echo "fuente = 1Row "
+
+figlet -f 1Row $a
+
+
+echo "fuente = 3-D "
+
+figlet -f 3-D $a
+
+
+echo "fuente = D-ASCII "
+
+figlet -f 3D-ASCII $a
+
+
+echo "fuente = 4Max "
+
+figlet -f 4Max $a
+
+
+echo "fuente = fuente "
+
+figlet -f Acrobatic $a
+
+
+echo "fuente = Alligator2 "
+
+figlet -f Alligator2 $a
+
+
+echo "fuente = Alpha "
+
+figlet -f Alpha $a
+
+
+echo "fuente = Alphabet "
+
+figlet -f Alphabet $a
+
+
+echo "fuente = Arrows "
+
+figlet -f Arrows $a
+
+
+echo "fuente = Avatar "
+
+figlet -f Avatar $a
+
+
+echo "fuente = B1FF "
+
+figlet -f B1FF $a
+
+
+echo "fuente = Banner "
+
+figlet -f Banner $a
+
+
+echo "fuente = Banner3 "
+
+figlet -f Banner3 $a
+
+
+echo "fuente = Banner4 "
+
+figlet -f Banner4 $a
+
+
+echo "fuente = Barbwire "
+
+figlet -f Barbwire $a
+
+
+echo "fuente = Basic "
+
+figlet -f Basic $a
+
+
+echo "fuente = Bear "
+
+figlet -f Bear $a
+
+
+echo "fuente = Bell "
+
+figlet -f Bell $a
+
+
+echo "fuente = Benjamin "
+
+figlet -f Benjamin $a
+
+
+echo "fuente = Big "
+
+figlet -f Big $a
+
+
+echo "fuente = Bigfig "
+
+figlet -f Bigfig $a
+
+
+echo "fuente = Binary "
+
+figlet -f Binary $a
+
+
+echo "fuente = Block "
+
+figlet -f Block $a
+
+
+echo "fuente = Blocks "
+
+figlet -f Blocks $a
+
+
+echo "fuente = Bolger "
+
+figlet -f Bolger $a
+
+
+echo "fuente = Braced "
+
+figlet -f Braced $a
+
+
+echo "fuente = Bright "
+
+figlet -f Bright $a
+
+
+echo "fuente = Broadway "
+
+figlet -f Broadway $a
+
+
+echo "fuente = Broadway KB "
+
+figlet -f Broadway KB $a
+
+
+echo "fuente = Bubble "
+
+figlet -f Bubble $a
+
+
+echo "fuente = Bulbhead "
+
+figlet -f Bulbhead $a
+
+
+echo "fuente = Caligraphy "
+
+figlet -f Caligraphy $a
+
+
+echo "fuente = Caligraphy2 "
+
+figlet -f Caligraphy2 $a
+
+
+echo "fuente = Cards "
+
+figlet -f Cards $a
+
+
+echo "fuente = Catwalk "
+
+figlet -f Catwalk $a
+
+
+echo "fuente = Chiseled "
+
+figlet -f Chiseled $a
+
+
+echo "fuente = Chunky "
+
+figlet -f Chunky $a
+
+
+echo "fuente = Coinstak "
+
+figlet -f Coinstak $a
+
+
+echo "fuente = Cola "
+
+figlet -f Cola $a
+
+
+echo "fuente = Colossal "
+
+figlet -f Colossal $a
+
+
+echo "fuente = Computer "
+
+figlet -f Computer $a
+
+
+echo "fuente = Contessa "
+
+figlet -f Contessa $a
+
+
+echo "fuente = Contrast "
+
+figlet -f Contrast $a
+
+
+echo "fuente = Cosmike "
+
+figlet -f Cosmike $a
+
+
+echo "fuente = Crawford "
+
+figlet -f Crawford $a
+
+
+echo "fuente = Crawford2 "
+
+figlet -f Crawford2 $a
+
+
+echo "fuente = Crazy "
+
+figlet -f Crazy $a
+
+
+echo "fuente = Cricket "
+
+figlet -f Cricket $a
+
+
+echo "fuente = Cursive "
+
+figlet -f Cursive $a
+
+
+echo "fuente = Cyberlarge "
+
+figlet -f Cyberlarge $a
+
+
+echo "fuente = Cybersmall "
+
+figlet -f Cybersmall $a
+
+
+echo "fuente = Cygnet "
+
+figlet -f Cygnet $a
+
+
+echo "fuente = DANC4 "
+
+figlet -f DANC4 $a
+
+
+echo "fuente = DWhistled "
+
+figlet -f DWhistled $a
+
+
+echo "fuente = Decimal "
+
+figlet -f Decimal $a
+
+
+echo "fuente = Diamond "
+
+figlet -f Diamond $a
+
+
+echo "fuente = Digital "
+
+figlet -f Digital $a
+
+
+echo "fuente
+
+ = Doh "
+
+figlet -f Doh $a
+
+
+echo "fuente = Doom "
+
+figlet -f Doom $a
+
+
+echo "fuente = Double "
+
+figlet -f Double $a
+
+
+echo "fuente = Elite "
+
+figlet -f Elite $a
+
+
+echo "fuente = Epic "
+
+figlet -f Epic $a
+
+
+echo "fuente = Fender "
+
+figlet -f Fender $a
+
+
+echo "fuente = Flipped "
+
+figlet -f Flipped $a
+
+
+echo "fuente = Fraktur "
+
+figlet -f Fraktur $a
+
+
+echo "fuente = Fuzzy "
+
+figlet -f Fuzzy $a
+
+
+echo "fuente = Georgi16 "
+
+figlet -f Georgi16 $a
+
+
+echo "fuente = Ghost "
+
+figlet -f Ghost $a
+
+
+echo "fuente = Ghoulish "
+
+figlet -f Ghoulish $a
+
+
+echo "fuente = Glenyn "
+
+figlet -f Glenyn $a
+
+
+echo "fuente = Gothic "
+
+figlet -f Gothic $a
+
+
+echo "fuente = Graceful "
+
+figlet -f Graceful $a
+
+
+echo "fuente = Gradient "
+
+figlet -f Gradient $a
+
+
+echo "fuente = Graffiti "
+
+figlet -f Graffiti $a
+
+
+echo "fuente = Greek "
+
+figlet -f Greek $a
+
+
+echo "fuente = Hex"
+
+figlet -f Hex $a
+
+
+echo "fuente = Hieroglyphs "
+
+figlet -f Hieroglyphs $a
+
+
+echo "fuente = Hollywood "
+
+figlet -f Hollywood $a
+
+
+echo "fuente = ICL-1900 "
+
+figlet -f ICL-1900 $a
+
+
+echo "fuente = Impossible "
+
+figlet -f Impossible $a
+
+
+echo "fuente = Invita "
+
+figlet -f Invita $a
+
+
+echo "fuente = Isometric1 "
+
+figlet -f Isometric1 $a
+
+
+echo "fuente = Isometric2 "
+
+figlet -f Isometric2 $a
+
+
+echo "fuente = Isometric3 "
+
+figlet -f Isometric3 $a
+
+
+echo "fuente = Isometric4 "
+
+figlet -f Isometric4 $a
+
+
+echo "fuente = Italic "
+
+figlet -f Italic $a
+
+
+echo "fuente = Ivrit "
+
+figlet -f Ivrit $a
+
+
+echo "fuente = Jacky "
+
+figlet -f Jacky $a
+
+
+echo "fuente = Jazmine "
+
+figlet -f Jazmine $a
+
+
+echo "fuente = Jerusalem "
+
+figlet -f Jerusalem $a
+
+
+echo "fuente = Katakana "
+
+figlet -f Katakana $a
+
+
+echo "fuente = Kban "
+
+figlet -f Kban $a
+
+
+echo "fuente = Keyboard "
+
+figlet -f Keyboard $a
+
+
+echo "fuente = Knob "
+
+figlet -f Knob $a
+
+
+echo "fuente = Konto "
+
+figlet -f Konto $a
+
+
+echo "fuente = LCD"
+
+figlet -f LCD $a
+
+
+echo "fuente = Lean "
+
+figlet -f Lean $a
+
+
+echo "fuente = Letters "
+
+figlet -f Letters $a
+
+
+echo "fuente = Linux "
+
+figlet -f Linux $a
+
+
+echo "fuente = Lockergnome "
+
+figlet -f Lockergnome $a
+
+
+echo "fuente = Madrid "
+
+figlet -f Madrid $a
+
+
+echo "fuente = Marquee "
+
+figlet -f Marquee $a
+
+
+echo "fuente = Maxfour "
+
+figlet -f Maxfour $a
+
+
+echo "fuente = Merlin1 "
+
+figlet -f Merlin1 $a
+
+
+echo "fuente = Merlin2 "
+
+figlet -f Merlin2 $a
+
+
+echo "fuente = Mike "
+
+figlet -f Mike $a
+
+
+echo "fuente = Mirror "
+
+figlet -f Mirror $a
+
+
+echo "fuente = Mnemonic "
+
+figlet -f Mnemonic $a
+
+
+echo "fuente = Modular "
+
+figlet -f Modular $a
+
+
+echo "fuente = Morse "
+
+figlet -f Morse $a
+
+
+echo "fuente = Morse2 "
+
+figlet -f Morse2 $a
+
+
+echo "fuente = Moscow "
+
+figlet -f Moscow $a
+
+
+echo "fuente = Mshebrew210 "
+
+figlet -f Mshebrew210 $a
+
+
+echo "fuente = Muzzle "
+
+figlet -f Muzzle $a
+
+
+echo "fuente = NScript "
+
+figlet -f NScript $a
+
+
+echo "fuente = Nancyj-Fancy "
+
+figlet -f Nancyj-Fancy $a
+
+
+echo "fuente = Nancyj-Improved "
+
+figlet -f Nancyj-Improved $a
+
+
+echo "fuente = Nancyj "
+
+figlet -f Nancyj $a
+
+
+echo "fuente = Nipples "
+
+figlet -f Nipples $a
+
+
+echo "fuente = OS2 "
+
+figlet -f OS2 $a
+
+
+echo "fuente = Octal "
+
+figlet -f Octal $a
+
+
+echo "fuente = Ogre "
+
+figlet -f Ogre $a
+
+
+echo "fuente = Patorjk-HeX "
+
+figlet -f Patorjk-HeX $a
+
+
+echo "fuente = Pawp "
+
+figlet -f Pawp $a
+
+
+echo "fuente = Peaks "
+
+figlet -f Peaks $a
+
+
+echo "fuente = Poison "
+
+figlet -f Poison $a
+
+
+echo "fuente = Puffy "
+
+figlet -f Puffy $a
+
+
+echo "fuente = Pzzle "
+
+figlet -f Puzzle $a
+
+
+echo "fuente = Pyramid "
+
+figlet -f Pyramid $a
+
+
+echo "fuente = Rammstein "
+
+figlet -f Rammstein $a
+
+
+echo "fuente = Rectangles "
+
+figlet -f Rectangles $a
+
+
+echo "fuente = Relief "
+
+figlet -f Relief $a
+
+
+echo "fuente = Relief2 "
+
+figlet -f Relief2 $a
+
+
+echo "fuente = Reverse "
+
+figlet -f Reverse $a
+
+
+echo "fuente = Roman "
+
+figlet -f Roman $a
+
+
+echo "fuente = Rot13 "
+
+figlet -f Rot13 $a
+
+
+echo "fuente = Rotated "
+
+figlet -f Rotated $a
+
+
+echo "fuente = Rounded "
+
+figlet -f Rounded $a
+
+
+echo "fuente =  Rozzo "
+
+figlet -f Rozzo $a
+
+
+echo "fuente =  Runyc "
+
+figlet -f Runyc $a
+
+
+echo "fuente = Serifcap "
+
+figlet -f Serifcap $a
+
+
+echo "fuente = Shadow "
+
+figlet -f Shadow $a
+
+
+echo "fuente = Shimrod "
+
+figlet -f Shimrod $a
+
+
+echo "fuente = Short "
+
+figlet -f Short $a
+
+
+echo "fuente = Slant "
+
+figlet -f Slant $a
+
+
+echo "fuente = Slide "
+
+figlet -f Slide $a
+
+
+echo "fuente = Small Caps "
+
+figlet -f Small Caps $a
+
+
+echo "fuente = Soft "
+
+figlet -f Soft $a
+
+
+echo "fuente = Speed "
+
+figlet -f Speed $a
+
+
+echo "fuente = Spliff "
+
+figlet -f Spliff $a
+
+
+echo "fuente = Stacey "
+
+figlet -f Stacey $a
+
+
+echo "fuente = Stampate "
+
+figlet -f Stampate $a
+
+
+echo "fuente = Stampatello "
+
+figlet -f Stampatello $a
+
+
+echo "fuente = Standard "
+
+figlet -f Standard $a
+
+
+echo "fuente = Stellar "
+
+figlet -f Stellar $a
+
+
+echo "fuente = Stforek "
+
+figlet -f Stforek $a
+
+
+echo "fuente = Stop "
+
+figlet -f Stop $a
+
+
+echo "fuente = Straight "
+
+figlet -f Straight $a
+
+
+echo "fuente = Sub-Zero "
+
+figlet -f Sub-Zero $a
+
+
+echo "fuente = Swan "
+
+figlet -f Swan $a
+
+
+echo "fuente = Sweet "
+
+figlet -f Sweet $a
+
+
+echo "fuente = THIS "
+
+figlet -f THIS $a
+
+
+echo "fuente = Tanja "
+
+figlet -f Tanja $a
+
+
+echo "fuente = Tengwar "
+
+figlet -f Tengwar $a
+
+
+echo "fuente = Term "
+
+figlet -f Term $a
+
+
+echo "fuente = Test1 "
+
+figlet -f Test1 $a
+
+
+echo "fuente = Thick "
+
+figlet -f Thick $a
+
+
+echo "fuente = Thin "
+
+figlet -f Thin $a
+
+
+echo "fuente = Thorned "
+
+figlet -f Thorned $a
+
+
+echo "fuente = Tiles "
+
+figlet -f Tiles $a
+
+
+echo "fuente = Tinker-Toy "
+
+figlet -f Tinker-Toy $a
+
+
+echo "fuente = Tombstone "
+
+figlet -f Tombstone $a
+
+
+echo "fuente = Train "
+
+figlet -f Train $a
+
+
+echo "fuente = Trek "
+
+figlet -f Trek $a
+
+
+echo "fuente = Tsalagi "
+
+figlet -f Tsalagi $a
+
+
+echo "fuente = Tubular "
+
+figlet -f Tubular $a
+
+
+echo "fuente = Twisted "
+
+figlet -f Twisted $a
+
+
+echo "fuente = Univers "
+
+figlet -f Univers $a
+
+
+echo "fuente = Varsity "
+
+figlet -f Varsity $a
+
+
+echo "fuente = Wavy "
+
+figlet -f Wavy $a
+
+
+echo "fuente = Weird "
+
+figlet -f Weird $a
+
+
+echo "fuente = Whimsy "
+
+figlet -f Whimsy $a
+
+
+echo "fuente = Wow "
+
+figlet -f Wow $a
+
+echo " Script por < Mickey " 
+
+else
+echo "Por favor ingrese datos válidos"
+fi
