@@ -44,5 +44,5 @@ echo "|-----------------------------|"
 echo "$(tput setaf 3) Subscribete Cesar Hack Gray.."
 echo "|-----------------------------|"
 echo "....."
-echo "Ahora ejecuta esta herramienta con Figlet"
-cd Lzyfigt
+echo "Ya estas dentro De Figlet-Banners Ahora ejecuta esta herramienta con bash Figlet"
+cd Figlet-Banners
