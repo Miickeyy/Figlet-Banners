@@ -1,7 +1,7 @@
 #!/bin/sh
-
+#Creado el 25/03/2019
 clear
-cd 
+cd
 echo "\033[1;93m#script por Mickey"
 figlet  "Cesar Hack gray"
 echo ""
@@ -43,8 +43,6 @@ echo "$(tput setaf 10) Instalación exitosa [HECHO!]"
 echo "|-----------------------------|"
 echo "$(tput setaf 3) Subscribete Cesar Hack Gray.."
 echo "|-----------------------------|"
-echo ""
-echo "Ahora ejecuta esta herramienta con Figlet ".."
+echo "....."
+echo "Ahora ejecuta esta herramienta con Figlet"
 cd Lzyfigt
-
-
