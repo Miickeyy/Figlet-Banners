@@ -1,946 +1,947 @@
 #!bin/sh
 
 clear
-echo "\033[1;91m---------------------------------------------------------"
-figlet -f Puffy "Figlet"  
-echo " Genere fuentes de figlet de manera fácil con LazyFiglet por Mickey"
-echo " "
-echo "        Author Información"
-echo " => Name    : Mickey & Cesar"
-echo " => Github  : https://github.com/Miickeyy/Lzyfigt.git"
-echo " => YouTube : https://www.youtube.com/channel/UCjs0N8PbEo-se0r_4O_svNQ"
-echo " => WhatsApp: Termux Cyber"
-echo "-------------------------------------------------------------- "
-echo " "
+#Creado el 25/Marzo/2019
+echo -e "\033[0;34m ---------------------------------------------------------"
+	figlet -f Puffy "Banners"
+echo -e "\033[0;31m Generar fuentes de figlet de la manera mas fácil con Figlet-Banners Por Mickey"
+echo -e "\033[0;34m Mickey & Cesar"
+echo -e "\033[0;31m Información del autor"
+echo -e "\033[0;34m => Nombre    : Miguel apodado como Mickey oh Mickey D-H"
+echo -e "\033[0;31m => Github  : https://github.com/Miickeyy/Figlet-Banners.git"
+echo -e "\033[0;34m => YouTube : https://www.youtube.com/channel/UCjs0N8PbEo-se0r_4O_svNQ"
+echo " => WhatsApp: Como ser un Hacker"
+echo -e "\033[0;34m -------------------------------------------------------------- "
+echo -e "\033[0;31m Mickey & Cesar"
 
-echo -n "\033[1;93m[*] Introduzca su nombre : "
+echo -n "\033[0;34m [*] Introduzca su nombre --> : "
 read a
 if [ ! -z $a ]
 then
 
 echo " "
-echo -n "\033[1;96m[*] Este LazyFiglet Script por < Mickey & Cesar "
+echo -n "\033[1;96m[*] Este script de Figlet-Banners por < Mickey & Cesar "
 echo " "
-echo -n "\033[1;92m "Fuentes Generating.... "
+echo -n "\033[1;92m Generando Fuentes .... "
 
-echo ""
-echo ""
-echo "Fuente = 1Row "
+echo -e "\033[0;34m Mickey &"
+echo -e "\033[0;34m & Cesar"
+echo "Font = 1Row "
 
 figlet -f 1Row $a
 
 
-echo "Fuente = 3-D "
+echo "Font = 3-D "
 
 figlet -f 3-D $a
 
 
-echo "Fuente = D-ASCII "
+echo "Font = D-ASCII "
 
 figlet -f 3D-ASCII $a
 
 
-echo "Fuente = 4Max "
+echo "Font = 4Max "
 
 figlet -f 4Max $a
 
 
-echo "Fuente = Acrobatic "
+echo "Font = Acrobatic "
 
 figlet -f Acrobatic $a
 
 
-echo "Fuente = Alligator2 "
+echo "Font = Alligator2 "
 
 figlet -f Alligator2 $a
 
 
-echo "Fuente = Alpha "
+echo "Font = Alpha "
 
 figlet -f Alpha $a
 
 
-echo "Fuente = Alphabet "
+echo "Font = Alphabet "
 
 figlet -f Alphabet $a
 
 
-echo "Fuente = Arrows "
+echo "Font = Arrows "
 
 figlet -f Arrows $a
 
 
-echo "Fuente = Avatar "
+echo "Font = Avatar "
 
 figlet -f Avatar $a
 
 
-echo "Fuente = B1FF "
+echo "Font = B1FF "
 
 figlet -f B1FF $a
 
 
-echo "Fuente = Banner "
+echo "Font = Banner "
 
 figlet -f Banner $a
 
 
-echo "Fuente = Banner3 "
+echo "Font = Banner3 "
 
 figlet -f Banner3 $a
 
 
-echo "Fuente = Banner4 "
+echo "Font = Banner4 "
 
 figlet -f Banner4 $a
 
 
-echo "Fuente = Barbwire "
+echo "Font = Barbwire "
 
 figlet -f Barbwire $a
 
 
-echo "Fuente = Basic "
+echo "Font = Basic "
 
 figlet -f Basic $a
 
 
-echo "Fuente = Bear "
+echo "Font = Bear "
 
 figlet -f Bear $a
 
 
-echo "Fuente = Bell "
+echo "Font = Bell "
 
 figlet -f Bell $a
 
 
-echo "Fuente = Benjamin "
+echo "Font = Benjamin "
 
 figlet -f Benjamin $a
 
 
-echo "Fuente = Big "
+echo "Font = Big "
 
 figlet -f Big $a
 
 
-echo "Fuente = Bigfig "
+echo "Font = Bigfig "
 
 figlet -f Bigfig $a
 
 
-echo "Fuente = Binary "
+echo "Font = Binary "
 
 figlet -f Binary $a
 
 
-echo "Fuente = Block "
+echo "Font = Block "
 
 figlet -f Block $a
 
 
-echo "Fuente = Blocks "
+echo "Font = Blocks "
 
 figlet -f Blocks $a
 
 
-echo "Fuente = Bolger "
+echo "Font = Bolger "
 
 figlet -f Bolger $a
 
 
-echo "Fuente = Braced "
+echo "Font = Braced "
 
 figlet -f Braced $a
 
 
-echo "Fuente = Bright "
+echo "Font = Bright "
 
 figlet -f Bright $a
 
 
-echo "Fuente = Broadway "
+echo "Font = Broadway "
 
 figlet -f Broadway $a
 
 
-echo "Fuente = Broadway KB "
+echo "Font = Broadway KB "
 
 figlet -f Broadway KB $a
 
 
-echo "Fuente = Bubble "
+echo "Font = Bubble "
 
 figlet -f Bubble $a
 
 
-echo "Fuente = Bulbhead "
+echo "Font = Bulbhead "
 
 figlet -f Bulbhead $a
 
 
-echo "Fuente = Caligraphy "
+echo "Font = Caligraphy "
 
 figlet -f Caligraphy $a
 
 
-echo "Fuente = Caligraphy2 "
+echo "Font = Caligraphy2 "
 
 figlet -f Caligraphy2 $a
 
 
-echo "Fuente = Cards "
+echo "Font = Cards "
 
 figlet -f Cards $a
 
 
-echo "Fuente = Catwalk "
+echo "Font = Catwalk "
 
 figlet -f Catwalk $a
 
 
-echo "Fuente = Chiseled "
+echo "Font = Chiseled "
 
 figlet -f Chiseled $a
 
 
-echo "Fuente = Chunky "
+echo "Font = Chunky "
 
 figlet -f Chunky $a
 
 
-echo "Fuente = Coinstak "
+echo "Font = Coinstak "
 
 figlet -f Coinstak $a
 
 
-echo "Fuente = Cola "
+echo "Font = Cola "
 
 figlet -f Cola $a
 
 
-echo "Fuente = Colossal "
+echo "Font = Colossal "
 
 figlet -f Colossal $a
 
 
-echo "Fuente = Computer "
+echo "Font = Computer "
 
 figlet -f Computer $a
 
 
-echo "Fuente = Contessa "
+echo "Font = Contessa "
 
 figlet -f Contessa $a
 
 
-echo "Fuente = Contrast "
+echo "Font = Contrast "
 
 figlet -f Contrast $a
 
 
-echo "Fuente = Cosmike "
+echo "Font = Cosmike "
 
 figlet -f Cosmike $a
 
 
-echo "Fuente = Crawford "
+echo "Font = Crawford "
 
 figlet -f Crawford $a
 
 
-echo "Fuente = Crawford2 "
+echo "Font = Crawford2 "
 
 figlet -f Crawford2 $a
 
 
-echo "Fuente = Crazy "
+echo "Font = Crazy "
 
 figlet -f Crazy $a
 
 
-echo "Fuente = Cricket "
+echo "Font = Cricket "
 
 figlet -f Cricket $a
 
 
-echo "Fuente = Cursive "
+echo "Font = Cursive "
 
 figlet -f Cursive $a
 
 
-echo "Fuente = Cyberlarge "
+echo "Font = Cyberlarge "
 
 figlet -f Cyberlarge $a
 
 
-echo "Fuente = Cybersmall "
+echo "Font = Cybersmall "
 
 figlet -f Cybersmall $a
 
 
-echo "Fuente = Cygnet "
+echo "Font = Cygnet "
 
 figlet -f Cygnet $a
 
 
-echo "Fuente = DANC4 "
+echo "Font = DANC4 "
 
 figlet -f DANC4 $a
 
 
-echo "Fuente = DWhistled "
+echo "Font = DWhistled "
 
 figlet -f DWhistled $a
 
 
-echo "Fuente = Decimal "
+echo "Font = Decimal "
 
 figlet -f Decimal $a
 
 
-echo "Fuente = Diamond "
+echo "Font = Diamond "
 
 figlet -f Diamond $a
 
 
-echo "Fuente = Digital "
+echo "Font = Digital "
 
 figlet -f Digital $a
 
 
-echo "Fuente = Doh "
+echo "Font = Doh "
 
 figlet -f Doh $a
 
 
-echo "Fuente = Doom "
+echo "Font = Doom "
 
 figlet -f Doom $a
 
 
-echo "Fuente = Double "
+echo "Font = Double "
 
 figlet -f Double $a
 
 
-echo "Fuente = Elite "
+echo "Font = Elite "
 
 figlet -f Elite $a
 
 
-echo "Fuente = Epic "
+echo "Font = Epic "
 
 figlet -f Epic $a
 
 
-echo "Fuente = Fender "
+echo "Font = Fender "
 
 figlet -f Fender $a
 
 
-echo "Fuente = Flipped "
+echo "Font = Flipped "
 
 figlet -f Flipped $a
 
 
-echo "Fuente = Fraktur "
+echo "Font = Fraktur "
 
 figlet -f Fraktur $a
 
 
-echo "Fuente = Fuzzy "
+echo "Font = Fuzzy "
 
 figlet -f Fuzzy $a
 
 
-echo "Fuente = Georgi16 "
+echo "Font = Georgi16 "
 
 figlet -f Georgi16 $a
 
 
-echo "Fuente = Ghost "
+echo "Font = Ghost "
 
 figlet -f Ghost $a
 
 
-echo "Fuente = Ghoulish "
+echo "Font = Ghoulish "
 
 figlet -f Ghoulish $a
 
 
-echo "Fuente = Glenyn "
+echo "Font = Glenyn "
 
 figlet -f Glenyn $a
 
 
-echo "Fuente = Gothic "
+echo "Font = Gothic "
 
 figlet -f Gothic $a
 
 
-echo "Fuente = Graceful "
+echo "Font = Graceful "
 
 figlet -f Graceful $a
 
 
-echo "Fuente = Gradient "
+echo "Font = Gradient "
 
 figlet -f Gradient $a
 
 
-echo "Fuente = Graffiti "
+echo "Font = Graffiti "
 
 figlet -f Graffiti $a
 
 
-echo "Fuente = Greek "
+echo "Font = Greek "
 
 figlet -f Greek $a
 
 
-echo "Fuente = Hex"
+echo "Font = Hex"
 
 figlet -f Hex $a
 
 
-echo "Fuente = Hieroglyphs "
+echo "Font = Hieroglyphs "
 
 figlet -f Hieroglyphs $a
 
 
-echo "Fuente = Hollywood "
+echo "Font = Hollywood "
 
 figlet -f Hollywood $a
 
 
-echo "Fuente = ICL-1900 "
+echo "Font = ICL-1900 "
 
 figlet -f ICL-1900 $a
 
 
-echo "Fuente = Impossible "
+echo "Font = Impossible "
 
 figlet -f Impossible $a
 
 
-echo "Fuente = Invita "
+echo "Font = Invita "
 
 figlet -f Invita $a
 
 
-echo "Fuente = Isometric1 "
+echo "Font = Isometric1 "
 
 figlet -f Isometric1 $a
 
 
-echo "Fuente = Isometric2 "
+echo "Font = Isometric2 "
 
 figlet -f Isometric2 $a
 
 
-echo "Fuente = Isometric3 "
+echo "Font = Isometric3 "
 
 figlet -f Isometric3 $a
 
 
-echo "Fuente = Isometric4 "
+echo "Font = Isometric4 "
 
 figlet -f Isometric4 $a
 
 
-echo "Fuente = Italic "
+echo "Font = Italic "
 
 figlet -f Italic $a
 
 
-echo "Fuente = Ivrit "
+echo "Font = Ivrit "
 
 figlet -f Ivrit $a
 
 
-echo "Fuente = Jacky "
+echo "Font = Jacky "
 
 figlet -f Jacky $a
 
 
-echo "Fuente = Jazmine "
+echo "Font = Jazmine "
 
 figlet -f Jazmine $a
 
 
-echo "Fuente = Jerusalem "
+echo "Font = Jerusalem "
 
 figlet -f Jerusalem $a
 
 
-echo "Fuente = Katakana "
+echo "Font = Katakana "
 
 figlet -f Katakana $a
 
 
-echo "Fuente = Kban "
+echo "Font = Kban "
 
 figlet -f Kban $a
 
 
-echo "Fuente = Keyboard "
+echo "Font = Keyboard "
 
 figlet -f Keyboard $a
 
 
-echo "Fuente = Knob "
+echo "Font = Knob "
 
 figlet -f Knob $a
 
 
-echo "Fuente = Konto "
+echo "Font = Konto "
 
 figlet -f Konto $a
 
 
-echo "Fuente = LCD"
+echo "Font = LCD"
 
 figlet -f LCD $a
 
 
-echo "Fuente = Lean "
+echo "Font = Lean "
 
 figlet -f Lean $a
 
 
-echo "Fuente = Letters "
+echo "Font = Letters "
 
 figlet -f Letters $a
 
 
-echo "Fuente = Linux "
+echo "Font = Linux "
 
 figlet -f Linux $a
 
 
-echo "Fuente = Lockergnome "
+echo "Font = Lockergnome "
 
 figlet -f Lockergnome $a
 
 
-echo "Fuente = Madrid "
+echo "Font = Madrid "
 
 figlet -f Madrid $a
 
 
-echo "Fuente = Marquee "
+echo "Font = Marquee "
 
 figlet -f Marquee $a
 
 
-echo "Fuente = Maxfour "
+echo "Font = Maxfour "
 
 figlet -f Maxfour $a
 
 
-echo "Fuente = Merlin1 "
+echo "Font = Merlin1 "
 
 figlet -f Merlin1 $a
 
 
-echo "Fuente = Merlin2 "
+echo "Font = Merlin2 "
 
 figlet -f Merlin2 $a
 
 
-echo "Fuente = Mike "
+echo "Font = Mike "
 
 figlet -f Mike $a
 
 
-echo "Fuente = Mirror "
+echo "Font = Mirror "
 
 figlet -f Mirror $a
 
 
-echo "Fuente = Mnemonic "
+echo "Font = Mnemonic "
 
 figlet -f Mnemonic $a
 
 
-echo "Fuente = Modular "
+echo "Font = Modular "
 
 figlet -f Modular $a
 
 
-echo "Fuente = Morse "
+echo "Font = Morse "
 
 figlet -f Morse $a
 
 
-echo "Fuente = Morse2 "
+echo "Font = Morse2 "
 
 figlet -f Morse2 $a
 
 
-echo "Fuente = Moscow "
+echo "Font = Moscow "
 
 figlet -f Moscow $a
 
 
-echo "Fuente = Mshebrew210 "
+echo "Font = Mshebrew210 "
 
 figlet -f Mshebrew210 $a
 
 
-echo "Fuente = Muzzle "
+echo "Font = Muzzle "
 
 figlet -f Muzzle $a
 
 
-echo "Fuente = NScript "
+echo "Font = NScript "
 
 figlet -f NScript $a
 
 
-echo "Fuente = Nancyj-Fancy "
+echo "Font = Nancyj-Fancy "
 
 figlet -f Nancyj-Fancy $a
 
 
-echo "Fuente = Nancyj-Improved "
+echo "Font = Nancyj-Improved "
 
 figlet -f Nancyj-Improved $a
 
 
-echo "Fuente = Nancyj "
+echo "Font = Nancyj "
 
 figlet -f Nancyj $a
 
 
-echo "Fuente = Nipples "
+echo "Font = Nipples "
 
 figlet -f Nipples $a
 
 
-echo "Fuente = OS2 "
+echo "Font = OS2 "
 
 figlet -f OS2 $a
 
 
-echo "Fuente = Octal "
+echo "Font = Octal "
 
 figlet -f Octal $a
 
 
-echo "Fuente = Ogre "
+echo "Font = Ogre "
 
 figlet -f Ogre $a
 
 
-echo "Fuente = Patorjk-HeX "
+echo "Font = Patorjk-HeX "
 
 figlet -f Patorjk-HeX $a
 
 
-echo "Fuente = Pawp "
+echo "Font = Pawp "
 
 figlet -f Pawp $a
 
 
-echo "Fuente = Peaks "
+echo "Font = Peaks "
 
 figlet -f Peaks $a
 
 
-echo "Fuente = Poison "
+echo "Font = Poison "
 
 figlet -f Poison $a
 
 
-echo "Fuente = Puffy "
+echo "Font = Puffy "
 
 figlet -f Puffy $a
 
 
-echo "Fuente = Pzzle "
+echo "Font = Pzzle "
 
 figlet -f Puzzle $a
 
 
-echo "Fuente = Pyramid "
+echo "Font = Pyramid "
 
 figlet -f Pyramid $a
 
 
-echo "Fuente = Rammstein "
+echo "Font = Rammstein "
 
 figlet -f Rammstein $a
 
 
-echo "Fuente = Rectangles "
+echo "Font = Rectangles "
 
 figlet -f Rectangles $a
 
 
-echo "Fuente = Relief "
+echo "Font = Relief "
 
 figlet -f Relief $a
 
 
-echo "Fuente = Relief2 "
+echo "Font = Relief2 "
 
 figlet -f Relief2 $a
 
 
-echo "Fuente = Reverse "
+echo "Font = Reverse "
 
 figlet -f Reverse $a
 
 
-echo "Fuente = Roman "
+echo "Font = Roman "
 
 figlet -f Roman $a
 
 
-echo "Fuente = Rot13 "
+echo "Font = Rot13 "
 
 figlet -f Rot13 $a
 
 
-echo "Fuente = Rotated "
+echo "Font = Rotated "
 
 figlet -f Rotated $a
 
 
-echo "Fuente = Rounded "
+echo "Font = Rounded "
 
 figlet -f Rounded $a
 
 
-echo "Fuente =  Rozzo "
+echo "Font =  Rozzo "
 
 figlet -f Rozzo $a
 
 
-echo "Fuente =  Runyc "
+echo "Font =  Runyc "
 
 figlet -f Runyc $a
 
 
-echo "Fuente = Serifcap "
+echo "Font = Serifcap "
 
 figlet -f Serifcap $a
 
 
-echo "Fuente = Shadow "
+echo "Font = Shadow "
 
 figlet -f Shadow $a
 
 
-echo "Fuente = Shimrod "
+echo "Font = Shimrod "
 
 figlet -f Shimrod $a
 
 
-echo "Fuente = Short "
+echo "Font = Short "
 
 figlet -f Short $a
 
 
-echo "Fuente = Slant "
+echo "Font = Slant "
 
 figlet -f Slant $a
 
 
-echo "Fuente = Slide "
+echo "Font = Slide "
 
 figlet -f Slide $a
 
 
-echo "Fuente = Small Caps "
+echo "Font = Small Caps "
 
 figlet -f Small Caps $a
 
 
-echo "Fuente = Soft "
+echo "Font = Soft "
 
 figlet -f Soft $a
 
 
-echo "Fuente = Speed "
+echo "Font = Speed "
 
 figlet -f Speed $a
 
 
-echo "Fuente = Spliff "
+echo "Font = Spliff "
 
 figlet -f Spliff $a
 
 
-echo "Fuente = Stacey "
+echo "Font = Stacey "
 
 figlet -f Stacey $a
 
 
-echo "Fuente = Stampate "
+echo "Font = Stampate "
 
 figlet -f Stampate $a
 
 
-echo "Fuente = Stampatello "
+echo "Font = Stampatello "
 
 figlet -f Stampatello $a
 
 
-echo "Fuente = Standard "
+echo "Font = Standard "
 
 figlet -f Standard $a
 
 
-echo "Fuente = Stellar "
+echo "Font = Stellar "
 
 figlet -f Stellar $a
 
 
-echo "Fuente = Stforek "
+echo "Font = Stforek "
 
 figlet -f Stforek $a
 
 
-echo "Fuente = Stop "
+echo "Font = Stop "
 
 figlet -f Stop $a
 
 
-echo "Fuente = Straight "
+echo "Font = Straight "
 
 figlet -f Straight $a
 
 
-echo "Fuente = Sub-Zero "
+echo "Font = Sub-Zero "
 
 figlet -f Sub-Zero $a
 
 
-echo "Fuente = Swan "
+echo "Font = Swan "
 
 figlet -f Swan $a
 
 
-echo "Fuente = Sweet "
+echo "Font = Sweet "
 
 figlet -f Sweet $a
 
 
-echo "Fuente = THIS "
+echo "Font = THIS "
 
 figlet -f THIS $a
 
 
-echo "Fuente = Tanja "
+echo "Font = Tanja "
 
 figlet -f Tanja $a
 
 
-echo "Fuente = Tengwar "
+echo "Font = Tengwar "
 
 figlet -f Tengwar $a
 
 
-echo "Fuente = Term "
+echo "Font = Term "
 
 figlet -f Term $a
 
 
-echo "Fuente = Test1 "
+echo "Font = Test1 "
 
 figlet -f Test1 $a
 
 
-echo "Fuente = Thick "
+echo "Font = Thick "
 
 figlet -f Thick $a
 
 
-echo "Fuente = Thin "
+echo "Font = Thin "
 
 figlet -f Thin $a
 
 
-echo "Fuente = Thorned "
+echo "Font = Thorned "
 
 figlet -f Thorned $a
 
 
-echo "Fuente = Tiles "
+echo "Font = Tiles "
 
 figlet -f Tiles $a
 
 
-echo "Fuente = Tinker-Toy "
+echo "Font = Tinker-Toy "
 
 figlet -f Tinker-Toy $a
 
 
-echo "Fuente = Tombstone "
+echo "Font = Tombstone "
 
 figlet -f Tombstone $a
 
 
-echo "Fuente = Train "
+echo "Font = Train "
 
 figlet -f Train $a
 
 
-echo "Fuente = Trek "
+echo "Font = Trek "
 
 figlet -f Trek $a
 
 
-echo "Fuente = Tsalagi "
+echo "Font = Tsalagi "
 
 figlet -f Tsalagi $a
 
 
-echo "Fuente = Tubular "
+echo "Font = Tubular "
 
 figlet -f Tubular $a
 
 
-echo "Fuente = Twisted "
+echo "Font = Twisted "
 
 figlet -f Twisted $a
 
 
-echo "Fuente = Univers "
+echo "Font = Univers "
 
 figlet -f Univers $a
 
 
-echo "Fuente = Varsity "
+echo "Font = Varsity "
 
 figlet -f Varsity $a
 
 
-echo "Fuente = Wavy "
+echo "Font = Wavy "
 
 figlet -f Wavy $a
 
 
-echo "Fuente = Weird "
+echo "Font = Weird "
 
 figlet -f Weird $a
 
 
-echo "Fuente = Whimsy "
+echo "Font = Whimsy "
 
 figlet -f Whimsy $a
 
 
-echo "Fuente = Wow "
+echo "Font = Wow "
 
 figlet -f Wow $a
 
-echo " Script por < Mickey & Cesar " 
+echo -e "\033[0;34m Script por < Mickey & Cesar hack gray " 
 
 else
-echo "Por favor ingrese datos válidos"
+echo -e "\033[0;31m Por favor ingrese datos válidos"
 fi
